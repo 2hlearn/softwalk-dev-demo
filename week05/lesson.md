@@ -5,7 +5,7 @@ SDLC(Software Development Life Cycle)는 소프트웨어 개발의 각 단계를
 
 ### 섹션 2: 요구 분석(Requirements Analysis)
 소프트웨어 개발의 첫 번째 단계는 요구사항을 분석하는 것입니다. 이 단계에서는 사용자 또는 클라이언트가 필요로 하는 기능과 조건을 명확히 정의합니다. 비기술적인 언어로 설명하고, 명확한 문서로 기록하는 것이 중요합니다.
-- [YouTube: 요구 분석과 SDLC 소개](https://www.youtube.com/watch?v=gdOdor1Hp3I)
+[YouTube: 요구 분석과 SDLC 소개](https://www.youtube.com/watch?v=gdOdor1Hp3I)
 
 ### 섹션 3: 요구사항 문서 작성
 요구 분석이 끝나면 이를 토대로 요구사항 문서를 작성합니다. 요구사항 문서에는 기능적 요구사항과 비기능적 요구사항이 포함되며, 이를 통해 개발자가 정확한 작업 방향을 설정할 수 있습니다.
