@@ -12,4 +12,43 @@ SDLC(Software Development Life Cycle)는 소프트웨어 개발의 각 단계를
 ```plaintext
 - 기능적 요구사항: 사용자가 시스템을 통해 수행해야 할 구체적인 작업
 - 비기능적 요구사항: 성능, 보안, 사용성 등 시스템의 품질 관련 사항
+```
+### 섹션 4: 시스템 설계(Design)
+설계 단계에서는 요구사항을 바탕으로 시스템의 아키텍처와 구조를 설계합니다. 설계는 고수준 설계(HLD: High-Level Design)와 세부 설계(LLD: Low-Level Design)로 나뉘며, 각 부분이 어떻게 구현될지 정의합니다.
+* 고수준 설계: 시스템의 전반적인 구조와 구성 요소를 정의
+* 세부 설계: 각 구성 요소의 동작 방식을 세부적으로 기술
+
+### 섹션 5: UML(Unified Modeling Language)
+설계 단계에서는 UML을 사용하여 시스템의 구조와 동작을 시각적으로 표현할 수 있습니다. UML 다이어그램은 시스템의 클래스, 관계, 흐름 등을 명확하게 설명합니다.
+
+- [YouTube: UML 다이어그램 소개] (https://www.youtube.com/watch?v=c2LOeu7tDuM)
+
+### 섹션 6: 구현(Implementation)
+구현 단계에서는 설계서를 바탕으로 실제 코드를 작성하여 시스템을 개발합니다. 각 모듈별로 코드를 작성한 후, 통합하여 전체 시스템을 완성합니다. 이 단계에서는 프로그래밍 언어, 개발 환경, 툴 등을 사용합니다.
+
+- [YouTube: 소프트웨어 구현 단계] (https://www.youtube.com/watch?v=9OGvVgF1Z9g)
+
+### 섹션 7: 테스트(Test)
+테스트는 소프트웨어가 요구사항에 맞게 동작하는지 확인하는 단계입니다. 테스트는 단위 테스트, 통합 테스트, 시스템 테스트 등 여러 단계로 나뉩니다. 각 테스트는 소프트웨어의 오류를 발견하고 수정하는 데 도움을 줍니다.
+
+```plaintext
+- 단위 테스트(Unit Test): 개별 모듈이 정상적으로 동작하는지 테스트
+- 통합 테스트(Integration Test): 모듈 간 상호작용이 제대로 이루어지는지 확인
+- 시스템 테스트(System Test): 전체 시스템이 요구사항을 만족하는지 테스트
+```
+
+### 섹션 8: 유지보수(Maintenance)
+소프트웨어는 배포 후에도 지속적인 유지보수가 필요합니다. 사용자의 요구가 변화하거나, 시스템에 버그가 발견되면 이를 수정하고 업그레이드합니다. 유지보수는 소프트웨어의 수명을 연장하고 성능을 향상시키는 중요한 단계입니다.
+
+### 섹션 9: 애자일(Agile) 개발 방식
+애자일(Agile)은 전통적인 SDLC 방식과 달리, 유연하고 빠르게 요구사항에 대응하는 개발 방식입니다. 작은 단위로 개발을 반복하여, 점진적으로 소프트웨어를 완성합니다. 주로 스크럼(Scrum)이나 칸반(Kanban) 방식이 사용됩니다.
+
+- [YouTube: 애자일 개발 소개] (https://www.youtube.com/watch?v=Z9QbYZh1YXY)
+
+### 섹션 10: 소프트웨어 개발 도구
+SDLC의 각 단계를 관리하고 효율적으로 작업하기 위해 다양한 도구가 사용됩니다. 예를 들어, Jira는 프로젝트 관리 도구로, GitHub는 소스 코드 관리 도구로 사용됩니다.
+
+- [GitHub 사용 가이드 (freecodecamp)] (https://www.freecodecamp.org/korean/news/understanding-git-basics-commands-tips-tricks/) 
+- [Jira 사용 가이드 (Attlassian 초보자 종합 가이드)] (https://www.atlassian.com/ko/software/jira/guides/getting-started/introduction) 
+
 
