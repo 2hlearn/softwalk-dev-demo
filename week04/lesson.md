@@ -27,6 +27,7 @@ class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
+
 ```
 
 ### 섹션 5: 해시 테이블
@@ -35,4 +36,55 @@ class Node:
 hash_table = {"name": "SoftWalk", "age": 53}
 print(hash_table["name"])  # 'SoftWalk' 출력
 ```
+
+### 섹션 6: 트리 구조
+트리(Tree)는 계층 구조를 표현하는 데 사용되는 데이터 구조입니다. 각 노드는 부모와 자식 노드를 가질 수 있습니다. 이진 트리(Binary Tree)는 자식 노드가 최대 2개인 트리입니다.
+```
+class TreeNode:
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
+```
+
+### 섹션 7: 그래프
+그래프(Graph)는 노드와 그 노드를 연결하는 간선으로 구성된 데이터 구조입니다. 네트워크 구조를 표현할 때 사용되며, 그래프의 탐색 알고리즘에는 깊이 우선 탐색(DFS)과 너비 우선 탐색(BFS)이 있습니다.
+
+### 섹션 8: 정렬 알고리즘
+정렬 알고리즘은 데이터를 특정 기준에 따라 순서대로 정렬하는 방법입니다. 버블 정렬, 선택 정렬, 퀵 정렬 등이 있습니다.
+```
+# 버블 정렬 예시
+def bubble_sort(arr):
+    for i in range(len(arr)):
+        for j in range(0, len(arr)-i-1):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+```
+
+### 섹션 9: 탐색 알고리즘
+탐색 알고리즘은 데이터 구조에서 원하는 값을 찾는 방법입니다. 선형 탐색, 이진 탐색이 대표적인 탐색 알고리즘입니다. 이진 탐색은 정렬된 리스트에서 중간 값을 기준으로 탐색 범위를 반으로 줄여 나가는 방식입니다.
+```
+# 이진 탐색 예시
+def binary_search(arr, target):
+    low, high = 0, len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+```
+
+### 섹션 10: 빅오 표기법
+빅오 표기법(Big O Notation)은 알고리즘의 성능을 평가하는 방법으로, 최악의 경우 연산 횟수를 표현합니다. 시간 복잡도와 공간 복잡도를 통해 알고리즘의 효율성을 분석할 수 있습니다.
+
+
+---
+
+이렇게 4주차 강의를 데이터 구조와 알고리즘에 맞추어 총 10개의 섹션으로 나누어 구성했습니다. 각각의 섹션은 Python 코드 예시와 함께 설명되어 있어 학습자가 직접 실습할 수 있습니다. 추가 수정이나 요청 사항이 있으시면 말씀해 주세요!
+
+
+
 
