@@ -85,8 +85,8 @@ print(calculator(10, 5, "add"))  # 15 출력
 ```
 
 ### 외부 리소스
-[YouTube 강의: Python 기초] (https://www.youtube.com/watch?v=tRZGeaHPoaw)
-[Python 기초 학습 자료 (freeCodeCamp - 한국어 버전)] (https://www.freecodecamp.org/korean/news/python-projects-for-beginners/)
+- [YouTube 강의: Python 기초] (https://www.youtube.com/watch?v=tRZGeaHPoaw)
+- [Python 기초 학습 자료 (freeCodeCamp - 한국어 버전)] (https://www.freecodecamp.org/korean/news/python-projects-for-beginners/)
 
 ---
 
