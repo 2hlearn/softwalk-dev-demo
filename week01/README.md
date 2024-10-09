@@ -13,5 +13,10 @@
 1. CIG16 진로 성향 분석 후, 개인적인 분석을 진행합니다.
 2. 제공된 이력서 템플릿을 기반으로 자신의 이력서를 작성합니다.
 
+### 외부 리소스 (실제 영상이 아님, 수정해야 함)
+- [YouTube 강의: 자기 이해와 커리어 비전 설정](https://youtu.be/example) ![썸네일](https://img.youtube.com/vi/example/0.jpg)
+- [MOOC 강의: 진로 설계의 중요성](https://www.edx.org/course/example)
+- [블로그 글: 성공적인 이력서 작성법](https://example.com/blog)
+
 ## 과제 제출
 - 작성한 이력서 및 커리어 비전 분석 결과를 [`homework.md`](./homework.md) 파일로 제출하세요.
