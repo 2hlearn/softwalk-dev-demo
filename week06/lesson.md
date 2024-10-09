@@ -52,5 +52,5 @@ git rebase main
 ### 섹션 10: GitHub 프로젝트 관리 도구
 GitHub는 프로젝트 관리를 위한 Kanban 보드 기능을 제공합니다. 이를 통해 개발팀은 작업의 상태를 시각적으로 관리하고, 작업 진행 상황을 추적할 수 있습니다.
 
-* [GitHub Projects 사용법] (https://docs.github.com/en/issues/organizing-your-work-with-project-boards)
+* [GitHub Projects 사용법](https://docs.github.com/en/issues/organizing-your-work-with-project-boards)
 
