@@ -2,7 +2,7 @@ title: SoftWalk Dev Demo
 author: 투에이치러닝 서울 - 주식회사 투에이치큐브의 소프트웨어 일자리 교육 사업입니다.
 
 description: >
-  SoftWalk Dev 교육의 데모 사이트입니다. GitHub Pages와 Jekyll을 사용하여 제작되었습니다. (현재 theme는 minima 입니다)
+  SoftWalk Dev 교육의 데모 사이트입니다. GitHub Pages와 Jekyll을 사용하여 제작되었습니다. (현재 theme는 minimal 입니다)
 
 # theme: minima  # 원하는 테마로 교체 가능
 remote_theme: pages-themes/minimal@v0.2.0
